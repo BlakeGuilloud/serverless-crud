@@ -12,3 +12,10 @@ Dynamo DB will host all of my data and will be triggered via Lambda functions.
 API Gateway will expose routes that in turn trigger lambda functions.
 
 Cloud front will host my API.
+
+
+### Plan:
+1) Learn the basic CRUD operations in DynamoDB.
+2) Write a separate lambda function for each operation.
+3) Expose each operation via API gateway.
+4) Host a URI on cloud front.
